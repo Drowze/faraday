@@ -56,5 +56,5 @@ end
 | `:streaming`                     | Tests that your adapter supports streaming responses. See [Streaming][streaming] for more details.       |
 | `:trace_method`                  | Tests your adapter against the `TRACE` HTTP method.                                                      |
 
-[streaming]: /adapters/custom/streaming.md
-[parallel]: /adapters/custom/parallel-requests.md
+[streaming]: /docs/adapters/custom/streaming.md
+[parallel]: /docs/adapters/custom/parallel-requests.md

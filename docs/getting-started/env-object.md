@@ -5,7 +5,7 @@ This object is initialized at the beginning of the request and passed down the m
 The adapter is then responsible to run the HTTP request and set the `response` property on the `env` object,
 which is then passed back up the middleware stack.
 
-You can read more about how the `env` object is used in the [Middleware - How it works](/docs/middleware/index?id=how-it-works) section.
+You can read more about how the `env` object is used in the [Middleware - How it works](/docs/middleware/index.md?id=how-it-works) section.
 
 Because of its nature, the `env` object is a complex structure that holds a lot of information and can
 therefore be a bit intimidating at first. This page will try to explain the different properties of the `env` object.
@@ -48,4 +48,4 @@ The `env` object also provides some helper methods to make it easier to work wit
 | `#stream_response?`     | Returns `true` if the `on_data` streaming callback has been provided.                            |
 | `#stream_response`      | Helper method to implement streaming in adapters. See [Support streaming in your adapter].       |
 
-[Support streaming in your adapter]: /adapters/custom/streaming.md
+[Support streaming in your adapter]: /docs/adapters/custom/streaming.md

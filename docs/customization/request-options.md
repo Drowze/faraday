@@ -35,5 +35,5 @@ conn.get('/foo') do |req|
 end
 ```
 
-[ProxyOptions]: /customization/proxy-options.md
-[SSLOptions]: /advanced/streaming-responses.md
+[ProxyOptions]: /docs/customization/proxy-options.md
+[SSLOptions]: /docs/advanced/streaming-responses.md

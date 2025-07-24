@@ -76,4 +76,4 @@ streamed.join
 
 For more details on the user experience, check the [Streaming Responses] page.
 
-[Streaming Responses]: /advanced/streaming-responses.md
+[Streaming Responses]: /docs/advanced/streaming-responses.md

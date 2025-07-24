@@ -43,6 +43,6 @@ conn = Faraday.new(options) do |faraday|
 end
 ```
 
-[RequestOptions]: /customization/request-options.md
-[ProxyOptions]: /customization/proxy-options.md
-[SSLOptions]: /customization/ssl-options.md
+[RequestOptions]: /docs/customization/request-options.md
+[ProxyOptions]: /docs/customization/proxy-options.md
+[SSLOptions]: /docs/customization/ssl-options.md

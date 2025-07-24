@@ -262,5 +262,5 @@ Faraday.default_connection = Faraday.new do |conn|
 end
 ```
 
-[Adapters]: /adapters/index.md
-[Middleware]: /middleware/index.md
+[Adapters]: /docs/adapters/index.md
+[Middleware]: /docs/middleware/index.md

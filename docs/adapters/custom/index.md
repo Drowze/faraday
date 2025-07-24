@@ -32,7 +32,7 @@ Now, there are only two things which are actually mandatory for an adapter middl
 
 These are the only two things, the rest of this text is about methods which make the authoring easier.
 
-Like any other middleware, the `env` parameter passed to `#call` is an instance of [Faraday::Env][env-object].
+Like any other middleware, the `env` parameter passed to `#call` is an instance of [Faraday::Env][/docs/getting-started/env-object.md].
 This object will contain all the information about the request, as well as the configuration of the connection.
 Your adapter is expected to deal with SSL and Proxy settings, as well as any other configuration options.
 

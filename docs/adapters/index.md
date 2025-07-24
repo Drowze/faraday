@@ -40,7 +40,7 @@ If you're just getting started you can find a list of featured adapters in [Awes
 Anyone can create a Faraday adapter and distribute it. If you're interested learning more, check how to [build your own][build_adapters]!
 
 
-[testing]:        /adapters/test-adapter.md
-[net_http]:       /adapters/net-http.md
+[testing]:        test-adapter.md
+[net_http]:       net-http.md
 [awesome]:        https://github.com/lostisland/awesome-faraday/#adapters
-[build_adapters]: /adapters/custom/index.md
+[build_adapters]: custom/index.md
