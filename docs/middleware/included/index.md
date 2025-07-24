@@ -29,9 +29,9 @@ before returning it.
 
 
 [authentication]:       authentication.md
-[url_encoded]:          url-encoding
-[json-request]:         json#json-requests
-[instrumentation]:      instrumentation
-[json-response]:        json#json-responses
-[logger]:               logging
-[raise_error]:          raising-errors
+[url_encoded]:          url-encoding.md
+[json-request]:         json.md#json-requests
+[instrumentation]:      instrumentation.md
+[json-response]:        json.md#json-responses
+[logger]:               logging.md
+[raise_error]:          raising-errors.md
