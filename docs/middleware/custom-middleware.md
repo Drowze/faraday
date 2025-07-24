@@ -7,7 +7,7 @@ The recommended way to write middleware is to make your middleware subclass `Far
 * `#on_request` is called when the request is being built and is given the `env` representing the request.
 * `#on_complete` is called after the response has been received (that's right, it already supports parallel mode!) and receives the `env` of the response.
 
-For both `env` parameters, please refer to the [Env Object](getting-started/env-object.md) page.
+For both `env` parameters, please refer to the [Env Object](/docs/getting-started/env-object.md) page.
 
 ```ruby
 class MyMiddleware < Faraday::Middleware
@@ -46,7 +46,7 @@ It's important to do all processing of the response only in the `#on_complete`
 block. This enables middleware to work in parallel mode where requests are
 asynchronous.
 
-The `request_env` and `response_env` are both [Env Objects](getting-started/env-object.md) but note the amount of
+The `request_env` and `response_env` are both [Env Objects](/docs/getting-started/env-object.md) but note the amount of
 information available in each one will differ based on the request/response lifecycle.
 
 ## Accepting configuration options

@@ -37,7 +37,7 @@ run, Faraday will return a `Faraday::Response` to the end user.
 
 The order in which middleware is stacked is important. Like with Rack, the first
 middleware on the list wraps all others, while the last middleware is the
-innermost one. If you want to use a custom [adapter](adapters/index.md), it must
+innermost one. If you want to use a custom [adapter](/docs/adapters/index.md), it must
 therefore be last.
 
 ![Middleware](../_media/middleware.png)
@@ -152,7 +152,7 @@ After app initialization, all instances of the middleware will have the newly co
 ```ruby
   Faraday.new do |f|
     ...
-    f.response :raise_error, include_request: true 
+    f.response :raise_error, include_request: true
     ...
   end
 ```
@@ -160,12 +160,12 @@ After app initialization, all instances of the middleware will have the newly co
 ### Available Middleware
 
 The following pages provide detailed configuration for the middleware that ships with Faraday:
-* [Authentication](middleware/included/authentication.md)
-* [URL Encoding](middleware/included/url-encoding.md)
-* [JSON Encoding/Decoding](middleware/included/json.md)
-* [Instrumentation](middleware/included/instrumentation.md)
-* [Logging](middleware/included/logging.md)
-* [Raising Errors](middleware/included/raising-errors.md)
+* [Authentication](included/authentication.md)
+* [URL Encoding](included/url-encoding.md)
+* [JSON Encoding/Decoding](included/json.md)
+* [Instrumentation](included/instrumentation.md)
+* [Logging](included/logging.md)
+* [Raising Errors](included/raising-errors.md)
 
 The [Awesome Faraday](https://github.com/lostisland/awesome-faraday/) project
 has a complete list of useful, well-maintained Faraday middleware. Middleware is

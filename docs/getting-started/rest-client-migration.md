@@ -156,8 +156,8 @@ end
 >
 > See also:
 >
-> * [Dealing with Errors](getting-started/errors.md)
-> * [Raising Errors](middleware/included/raising-errors.md)
+> * [Dealing with Errors](errors.md)
+> * [Raising Errors](/docs/middleware/included/raising-errors.md)
 
 ```ruby
 conn = Faraday.new(url: "https://httpbingo.org") do |f|

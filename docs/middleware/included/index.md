@@ -28,10 +28,10 @@ before returning it.
 * [`RaiseError`][raise_error] checks the response HTTP code and raises an exception if it is a 4xx or 5xx code.
 
 
-[authentication]:       middleware/included/authentication.md
-[url_encoded]:          middleware/included/url-encoding
-[json-request]:         middleware/included/json#json-requests
-[instrumentation]:      middleware/included/instrumentation
-[json-response]:        middleware/included/json#json-responses
-[logger]:               middleware/included/logging
-[raise_error]:          middleware/included/raising-errors
+[authentication]:       authentication.md
+[url_encoded]:          url-encoding
+[json-request]:         json#json-requests
+[instrumentation]:      instrumentation
+[json-response]:        json#json-responses
+[logger]:               logging
+[raise_error]:          raising-errors

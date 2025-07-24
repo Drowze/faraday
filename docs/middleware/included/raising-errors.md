@@ -4,7 +4,7 @@ The `RaiseError` middleware raises a `Faraday::Error` exception if an HTTP
 response returns with a 4xx or 5xx status code.
 This greatly increases the ease of use of Faraday, as you don't have to check
 the response status code manually.
-These errors add to the list of default errors [raised by Faraday](getting-started/errors.md).
+These errors add to the list of default errors [raised by Faraday](/docs/getting-started/errors.md).
 
 All exceptions are initialized with a hash containing the response `status`, `headers`, and `body`.
 
@@ -51,7 +51,7 @@ It's important to note that this exception is only returned if we receive a resp
 HTTP status in such response is in the 500-599 range.
 Other kind of errors normally attributed to errors in the 5xx range (such as timeouts, failure to connect, etc...)
 are raised as specific exceptions inheriting from `Faraday::Error`.
-See [Faraday Errors](getting-started/errors.md) for more information on these.
+See [Faraday Errors](/docs/getting-started/errors.md) for more information on these.
 
 ### Missing HTTP status
 
