@@ -1,6 +1,6 @@
 # Proxy Options
 
-Proxy options can be provided to the connection constructor or set on a per-request basis via [RequestOptions](/customization/request-options.md).
+Proxy options can be provided to the connection constructor or set on a per-request basis via [RequestOptions](/docs/customization/request-options.md).
 All these options are optional.
 
 | Option      | Type        | Default | Description     |

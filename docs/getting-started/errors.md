@@ -14,4 +14,4 @@ Below is a list of errors that Faraday may raise, and that you should be prepare
 | `Faraday::SSLError`         | Raised when the connection to the remote server failed due to an SSL error.    |
 
 If you add the `raise_error` middleware, Faraday will also raise additional errors for 4xx and 5xx responses.
-You can find the full list of errors in the [raise_error middleware](/middleware/included/raising-errors) page.
+You can find the full list of errors in the [raise_error middleware](/docs/middleware/included/raising-errors) page.
